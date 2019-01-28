@@ -1,57 +1,15 @@
 # Project Name
 
-(short, 1-3 sentenced, description of the project)
+Resource Manager templates for creating Azure HDInsight clusters using Azure Data Lake Gen2 storage.
 
-## Features
+## Using the templates
 
-This project framework provides the following features:
+Replace occurences of the following values with the correct information for your environment:
 
-* Feature 1
-* Feature 2
-* ...
+* <SUBSCRIPTION_ID> - replace with your Azure subscription ID
+* <PASSWORD> - replace with your chosen password for cluster login and ssh login
 
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
 
 ## Resources
 
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+[Read the tutorial](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2).
