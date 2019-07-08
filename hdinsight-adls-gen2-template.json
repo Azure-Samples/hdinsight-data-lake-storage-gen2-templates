@@ -90,11 +90,11 @@
                 "storageProfile": {
                     "storageaccounts": [
                         {
-                            "name": "hdinsightadlsgen2.dfs.core.windows.net",
+                            "name": "<STORAGEACCOUNTNAME>.dfs.core.windows.net",
                             "isDefault": true,
-                            "fileSystem": "my-test-hdicluster-2019-01-23t20-00-14-186z",
-                            "resourceId": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/hdinsight-deployment-rg/providers/Microsoft.Storage/storageAccounts/hdinsightadlsgen2",
-                            "msiResourceId": "/subscriptions/<SUBSCRIPTION_ID>/resourcegroups/hdinsight-deployment-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/test-hdinsight-msi"
+                            "fileSystem": "",
+                            "resourceId": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCEGROUPNAME>/providers/Microsoft.Storage/storageAccounts/<STORAGEACCOUNTNAME>",
+                            "msiResourceId": "/subscriptions/<SUBSCRIPTION_ID>/resourcegroups/<RESOURCEGROUPNAME>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<MANAGEDIDENTITYNAME>"
                         }
                     ]
                 },
@@ -139,7 +139,7 @@
             "identity": {
                 "type": "UserAssigned",
                 "userAssignedIdentities": {
-                    "/subscriptions/<SUBSCRIPTION_ID>/resourcegroups/hdinsight-deployment-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/test-hdinsight-msi": {}
+                    "/subscriptions/<SUBSCRIPTION_ID>/resourcegroups/<RESOURCEGROUPNAME>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<MANAGEDIDENTITYNAME>": {}
                 }
             }
         }
