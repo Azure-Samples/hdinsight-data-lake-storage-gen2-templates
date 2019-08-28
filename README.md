@@ -1,3 +1,14 @@
+---
+page_type: sample
+languages:
+  - json
+products:
+  - azure
+  - azure-hdinsight
+name: Azure HDInsight Data Lake Store Gen2 templates
+urlFragment: hdinsight-data-lake-storage-gen2-templates
+description: "This repo provides resource manager templates for creating Azure HDInsight clusters that use Azure Data Lake Store Gen2 as storage."
+---
 # Resource Manager templates for creating Azure HDInsight clusters using Azure Data Lake Gen2 storage
 
 ## Using the templates
