@@ -4,7 +4,7 @@ languages:
 products:
 - azure
 description: "Replace occurences of the following values with the correct information for your environment."
-urlFragment: hdinsight-data-lake-storage-gen2-templates
+urlFragment: resource-manager-templates-sample
 ---
 
 # Resource Manager templates for creating Azure HDInsight clusters using Azure Data Lake Gen2 storage
