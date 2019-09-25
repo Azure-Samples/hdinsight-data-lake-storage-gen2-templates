@@ -1,6 +1,7 @@
 ---
 page_type: sample
 languages:
+- json
 products:
 - azure
 description: "Replace occurences of the following values with the correct information for your environment."
