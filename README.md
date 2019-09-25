@@ -20,3 +20,4 @@ Replace occurences of the following values with the correct information for your
 ## Resources
 
 [Read the tutorial](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2).
+
