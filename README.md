@@ -3,7 +3,8 @@ page_type: sample
 languages:
 - json
 products:
-- azure
+  - azure
+  - azure-hdinsight
 description: "Replace occurences of the following values with the correct information for your environment."
 urlFragment: resource-manager-templates-sample
 ---
